@@ -18,8 +18,8 @@ def speak_to_grandma(phrase)
   if (phrase.upcase == phrase) && (phrase ==  "I LOVE YOU GRANDMA!") 
     puts "I LOVE YOU TOO PUMPKIN!"
     pumpkin_response
-  elseif phrase.upcase != phrase
-    puts "HUH?! SPEAK UP SONNY!"
+  #elseif phrase.upcase != phrase
+   # puts "HUH?! SPEAK UP SONNY!"
     cant_hear_response
   end
 end
