@@ -22,5 +22,7 @@ def speak_to_grandma(phrase)
     pumpkin_response
   elsif phrase.upcase != phrase
     cant_hear_response
+  else 
+    wrong_response
   end
 end
